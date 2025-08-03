@@ -1,0 +1,90 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2023d6;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+section {
+  padding: 2rem 1.5rem;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+
+section h2 {
+  color: #002b5c;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 2rem;
+}
+
+.project {
+  background-color: #e6f0ff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.cv-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #004aad;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cv-button:hover {
+  background-color: #003a8c;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+form input,
+form textarea {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #002b5c;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #001f40;
+}
+
+footer {
+  background-color: #002b5c;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
