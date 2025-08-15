@@ -1,0 +1,114 @@
+✅ Challenge 1:
+Build a fun page showcasing:
+
+A pricing or comparison table
+
+Two creative lists
+
+Three images with helpful alt text
+Let AI help brainstorm or enhance wherever needed!
+
+✅ Challenge 2:
+
+Design a complete form (e.g. contact, feedback, signup)
+
+Use at least one accessibility improvement (e.g. aria-label, <label>)
+
+Let AI help create realistic input options, labels, and placeholder content
+
+✅ Challenge 3:
+
+Build a smart form using required, pattern, and other validation attributes.
+
+Use AI to suggest realistic and user-friendly validation patterns.
+
+Bonus: Use AI to simulate UX messages (success, error, tooltip).
+
+Recommended Websites for Learning HTML5 Multimedia and Forms
+
+MDN Web Docs - Multimedia in HTML
+
+Comprehensive documentation on using <audio> and <video> elements.
+Includes examples, attributes, and use cases.
+
+W3Schools - HTML Multimedia
+
+Beginner-friendly tutorials on embedding and controlling multimedia.
+Includes interactive code examples and exercises.
+
+HTML5 Canvas Tutorial by MDN
+
+Step-by-step guides to using the <canvas> element for graphics and animations.
+
+HTML Form Elements Guide - GeeksforGeeks
+
+Detailed breakdown of form elements like <input>, <textarea>, and <select>.
+
+Accessibility in Forms - WebAIM
+
+Essential guide to building accessible forms with labels, fieldsets, and ARIA roles.
+
+HTML5 Validation Techniques - SitePoint
+
+Explains form validation attributes and custom error messages.
+Recommended Video Tutorials
+
+The Net Ninja - HTML5 Audio & Video
+
+A playlist covering <audio> and <video> usage with examples and customization.
+
+Traversy Media - HTML5 Canvas Crash Course
+
+Beginner-friendly tutorial on drawing graphics with the <canvas> element.
+
+Academind - HTML Forms Crash Course
+
+Covers HTML5 form elements and basic validation.
+
+Kevin Powell - Accessible Forms Tutorial
+
+Practical tips on building accessible forms using HTML5.
+
+CodeAcademy - Embedding Multimedia in HTML
+
+Explains how to use <audio> and <video> effectively in web pages.
+
+Programming with Mosh - HTML5 Forms and Validation
+
+Clear and concise walkthrough of form elements and validation techniques.
+
+FreeCodeCamp.org - HTML Full Course
+
+Includes chapters on multimedia and forms.
+
+LevelUpTuts - HTML5 Canvas Basics
+
+A short series focused on using the <canvas> element.
+
+Google Developers - Building Accessible Forms
+
+Insights into accessibility considerations for form design.
+
+DesignCourse - HTML Forms Explained
+
+Focuses on best practices for form design and styling.
+
+
+
+AI Prompts: 
+
+Exploring Multimedia Integration
+"Explain how I can embed both audio and video elements on a webpage, including controls, autoplay, and customization options. Provide examples of each."
+
+HTML5 Form Creation
+"Generate a simple HTML5 registration form with fields for name, email, password, and a dropdown menu for gender. Include proper labels and basic validation attributes."
+
+Canvas Applications
+"Show me how to use the HTML5 <canvas> element to draw a simple rectangle and a circle with different colors and borders."
+
+Form Accessibility
+"What are the best practices for building accessible forms in HTML5? Include examples of using <label>, <fieldset>, and aria-labels to improve usability for screen readers."
+
+Form Validation Techniques
+"Explain the use of HTML5 form validation attributes like required, minlength, and pattern. Provide an example of a form with these validations applied."
+
