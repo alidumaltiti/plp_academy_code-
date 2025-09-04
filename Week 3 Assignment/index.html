@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Fundamentals Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CSS Fundamentals</h1>
+            <p>Understanding selectors, box model, and layout</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#box-model">Box Model</a></li>
+                <li><a href="#selectors">Selectors</a></li>
+                <li><a href="#layout">Layout</a></li>
+                <li><a href="#resources">Resources</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="box-model">
+            <h2>CSS Box Model</h2>
+            <div class="box-model-demo">
+                <div class="box">Content</div>
+            </div>
+            <div class="box-model-explanation">
+                <div class="explanation-item">
+                    <h3>Content</h3>
+                    <p>The actual content of the box, where text and images appear</p>
+                </div>
+                <div class="explanation-item">
+                    <h3>Padding</h3>
+                    <p>Clears an area around the content, inside the border</p>
+                </div>
+                <div class="explanation-item">
+                    <h3>Border</h3>
+                    <p>A border that goes around the padding and content</p>
+                </div>
+                <div class="explanation-item">
+                    <h3>Margin</h3>
+                    <p>Clears an area outside the border, separating elements</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="selectors">
+            <h2>CSS Selectors</h2>
+            <div class="selector-examples">
+                <div class="example">
+                    <h3>Element Selector</h3>
+                    <p>Selects all instances of an HTML element</p>
+                    <pre><code>p {
+    color: blue;
+}</code></pre>
+                </div>
+                <div class="example">
+                    <h3>Class Selector</h3>
+                    <p>Selects elements with a specific class attribute</p>
+                    <pre><code>.highlight {
+    background-color: yellow;
+}</code></pre>
+                </div>
+                <div class="example">
+                    <h3>ID Selector</h3>
+                    <p>Selects a single element with a specific ID</p>
+                    <pre><code>#header {
+    font-size: 2rem;
+}</code></pre>
+                </div>
+                <div class="example">
+                    <h3>Descendant Selector</h3>
+                    <p>Selects elements that are descendants of another element</p>
+                    <pre><code>article p {
+    line-height: 1.6;
+}</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <section id="layout">
+            <h2>CSS Layout Techniques</h2>
+            <div class="layout-examples">
+                <div class="layout-item">
+                    <h3>Flexbox</h3>
+                    <div class="flex-container">
+                        <div class="flex-item">1</div>
+                        <div class="flex-item">2</div>
+                        <div class="flex-item">3</div>
+                    </div>
+                    <p>One-dimensional layout model for arranging items in rows or columns</p>
+                </div>
+                <div class="layout-item">
+                    <h3>CSS Grid</h3>
+                    <div class="grid-container">
+                        <div class="grid-item">1</div>
+                        <div class="grid-item">2</div>
+                        <div class="grid-item">3</div>
+                        <div class="grid-item">4</div>
+                        <div class="grid-item">5</div>
+                        <div class="grid-item">6</div>
+                    </div>
+                    <p>Two-dimensional layout system for the web</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="resources">
+            <h2>Learning Resources</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h3>MDN Web Docs</h3>
+                    <p>Comprehensive resource for web technologies</p>
+                    <a href="#" class="btn">Visit MDN</a>
+                </div>
+                <div class="resource-card">
+                    <h3>CSS-Tricks</h3>
+                    <p>Tips, tricks, and techniques on using CSS</p>
+                    <a href="#" class="btn">Visit CSS-Tricks</a>
+                </div>
+                <div class="resource-card">
+                    <h3>FreeCodeCamp</h3>
+                    <p>Free learning platform for web development</p>
+                    <a href="#" class="btn">Visit FreeCodeCamp</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 CSS Fundamentals Demo. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

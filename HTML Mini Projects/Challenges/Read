@@ -112,3 +112,20 @@ Form Accessibility
 Form Validation Techniques
 "Explain the use of HTML5 form validation attributes like required, minlength, and pattern. Provide an example of a form with these validations applied."
 
+CSS
+✅ Challenge
+
+Style a small layout with headings, buttons, and image cards
+
+Use classes to apply spacing, colors, and text styles
+
+Let AI suggest visual styles or spacing rules for consistency
+
+✅ Challenge
+
+Build a layout with clear margins, paddings, and borders
+
+Use box-sizing intentionally and test layouts in dev tools
+
+Let AI explain layout quirks or refactor your spacing setup 
+
