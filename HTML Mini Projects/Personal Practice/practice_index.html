@@ -16,6 +16,21 @@
     border-radius: 5px;
     cursor: pointer;
 }
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Defines 3 columns */
+    grid-gap: 10px; /* Adds spacing */
+}
+img {
+    float: left;
+    margin: 10px;
+}
 </style>
 	
 <body>
@@ -132,8 +147,19 @@ muted: Starts the video muted.
     Box Model Example
 </div>
 <hr>
-
-
+<div class="container">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+</div>
+<hr>
+<div class="container2">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+</div>
+<hr>
+<img src="image.jpeg">
 </body>
 
 </html>
